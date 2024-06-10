@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Switcher</title>
+    <link rel="stylesheet" href="/Translate/Style/main.css">
+</head>
+
+<body id="body">
+    <main>
+        <div class="switch-lang">
+            <div class="current-lang">
+                <div class="img_Tr">
+                    <img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png">
+                </div>
+                <p class="lang-text">English</p>
+            </div>
+            <div class="lang-dropdown">
+                <div class="selecting-lang" onclick="changeLanguage('ar')">
+                    <div class="img_Tr">
+                        <img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Saudi_Arabia.png">
+                    </div>
+                    <p class="lang-text">اللغة العربية</p>
+                </div>
+                <div class="selecting-lang" onclick="changeLanguage('en')">
+                    <div class="img_Tr">
+                        <img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png">
+                    </div>
+                    <p class="lang-text">English</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="google_element"></div>
+
+        <p class="title" id="title" data-meaning-en="UI/UX Designer + Graphic Designer" data-meaning-ar="مصمم UI/UX + مصمم جرافيك">UI/UX Designer + Graphic Designer</p>
+<h2>ammar</h2>
+    </main>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="/Translate/Script/app.js"></script>
+   
+</body>
+</html>

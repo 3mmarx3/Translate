@@ -1,0 +1,97 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size:large;
+font-family: sans-serif;
+list-style-type: none;
+text-transform: capitalize;}
+
+
+main{
+margin: 10px;
+padding: 10px;}
+
+.language-list li {
+display: block;
+margin-bottom: 10px;
+cursor: pointer;}
+
+.language-list li:hover {text-decoration: underline;}
+
+.switch-lang {cursor: pointer; direction: ltr; margin: 10px;}
+
+.switch-lang:hover .lang-dropdown {display: block;
+margin-top: 2vh;
+}
+
+.current-lang   {
+background: #eee;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+gap: 10px;
+color: black;
+border-radius: 10px;}
+
+.selecting-lang{
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    color: black;
+    margin-top: 3vh;
+    border-radius: 10px;}
+
+.img_Tr {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+.lang-flag {
+width: 20px;
+display: inline-block;}
+
+
+.lang-dropdown {
+display: none;
+border-radius: 5px;
+margin-top: 5px;
+}
+
+
+
+/* .selecting-lang:hover {background: darkorange;} */
+
+.menu-arrow {
+display: inline-block;
+width: 10px;
+margin-left: 10px;
+vertical-align: top;
+margin-top: 6px;}
+
+.div .title {
+font-size: large;
+color: white;
+margin: 20px 5px;}
+
+    /* إخفاء العناصر ذات الصلة بمكتبة Google Translate */
+    .goog-te-banner-frame,
+    .goog-te-menu-value,
+    .goog-te-menu2-item,
+    .goog-te-combo,
+    .skiptranslate  {
+        display: none !important;
+    }
+    .-VIpgJd-yAWNEb-VIpgJd-fmcms-sn540{
+      background: none !important;
+    }
+
